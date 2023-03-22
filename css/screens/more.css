@@ -1,0 +1,64 @@
+.more__phone-number {
+    display: flex;
+    align-items:center;
+}
+.more__alert {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:5px;
+    width:12px;
+    height:12px;
+    border:1.5px solid #FF6129;
+    border-radius:50%;
+    color:#FF6129;
+}
+
+.more__alert span{
+    font-size:10px;
+    font-weight:1000;
+}
+
+.more-screen .icon-row {
+    margin-top:30px;
+}
+.more-suggestions {
+    margin-top:50px;
+    border-top:var(--main-border);
+    padding-top:30px;
+}
+
+.more-suggestions__title {
+    margin-bottom:20px;
+}
+
+.more-suggestions__icons {
+    display:flex;
+}
+
+.more-suggestions__icon {
+    margin-right:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.more-suggestions__icon-image {
+    width:50px;
+    height:50px;
+    background-color:var(--yellow);
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.more-suggestions__icon-image i {
+    font-size:30px;
+    color:white;
+}
+
+.more-suggestions__icon-text {
+    font-size:14px;
+}
