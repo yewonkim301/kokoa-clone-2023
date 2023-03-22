@@ -1,10 +1,18 @@
-.badge {background-color:#FF6129;
-width:30px;
-height:30px;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-color:white;
-font-weight:600;
+.badge {
+    background-color:#FF6129;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-weight:600;
+}
+
+.badge-dot{
+    background-color:#FF6129;
+    width:6px;
+    height:6px;
+    border-radius:50%;
 }
